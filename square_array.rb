@@ -1,10 +1,12 @@
-=begin  # your code here
+def square_array
   arr = []
   array.each {|x| arr << x ** 2}
   arr
 end
-=end
+
+=begin
 def square_array(array)
-  # your code here
   array.collect {|x| x **2}
 end
+=end
+# Above is the code using .collect for reference
